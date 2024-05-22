@@ -2,10 +2,12 @@
 Clase Gato.
 :author: Jaime Rabasco Ronda.
 """
+
+
 class Gato:
+    def maulla(self):
+        print('Miau')
 
-    def maullar(self):
-        print('Miau');
 
-g = Gato();
-g.maullar();
+g = Gato()
+g.maulla()
