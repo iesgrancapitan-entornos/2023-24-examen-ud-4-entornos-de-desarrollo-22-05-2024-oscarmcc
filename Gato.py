@@ -5,8 +5,11 @@ Clase Gato.
 
 
 class Gato:
+    def __init__(self):
+        self.maulla = 'Miau'
     def maulla(self):
-        print('Miau')
+        print(self.miau)
+
 
 
 g = Gato()
