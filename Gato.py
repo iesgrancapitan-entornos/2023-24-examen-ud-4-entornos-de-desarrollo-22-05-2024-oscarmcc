@@ -9,6 +9,7 @@ class Gato:
     Clase Gato.
     :author: Óscar Martín-Castaño Carrillo.
     """
+
     def __init__(self):
         """
         Constructor Gato.
@@ -16,6 +17,7 @@ class Gato:
         :param: Miau
         """
         self.maulla = 'Miau'
+
     def maulla(self):
         """
         Imprime el maullido del gato
@@ -23,7 +25,6 @@ class Gato:
         :return:
         """
         print(self.maulla)
-
 
 
 g = Gato()
